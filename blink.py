@@ -62,6 +62,16 @@ while 1:
                 keyboard.press("w")
             else:
                 keyboard.release("w")
+            # cv2.putText(
+            #     frame,
+            #     str(right_EAR),
+            #     (50, 50),
+            #     cv2.FONT_HERSHEY_SIMPLEX,
+            #     1,ww
+            #     (0, 255, 255),
+            #     2,
+            #     cv2.LINE_4,
+            # )
 
         cv2.imshow("Video", frame)
         if cv2.waitKey(5) & 0xFF == ord("q"):
