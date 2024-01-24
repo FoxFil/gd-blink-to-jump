@@ -28,7 +28,7 @@ def callback(indata, frames, time_given, status):
     db = 20 * indata.max()
     decibel_levels.append(db)
 
-    print('your decebeel level:', db)
+    print('your decibel level:', db)
 
     if db > threshold_db:
         keyboard.press(key_to_hold)
