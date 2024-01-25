@@ -64,10 +64,10 @@ while 1:
                 keyboard.release("w")
             # cv2.putText(
             #     frame,
-            #     str(right_EAR),
+            #     str(round(right_EAR, 2)www),
             #     (50, 50),
             #     cv2.FONT_HERSHEY_SIMPLEX,
-            #     1,ww
+            #     1,
             #     (0, 255, 255),
             #     2,
             #     cv2.LINE_4,
