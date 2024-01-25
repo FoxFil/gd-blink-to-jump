@@ -4,11 +4,6 @@ import imutils  # calculating
 from scipy.spatial import distance as dist
 from imutils import face_utils
 import keyboard  # for pressing buttons
-from imutils.video import FileVideoStream
-from threading import Thread
-import numpy as np
-import argparse
-import time
 
 cam = cv2.VideoCapture(0)
 
