@@ -3,7 +3,7 @@ import keyboard
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-threshold_db = 6
+threshold_db = 3
 
 key_to_hold = "w"
 
@@ -27,8 +27,6 @@ ax.legend()
 def callback(indata, frames, time_given, status):
     db = 20 * indata.max()
     decibel_levels.append(db)
-
-    print('your decibel level:', db)
 
     if db > threshold_db:
         keyboard.press(key_to_hold)
