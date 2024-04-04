@@ -2,9 +2,9 @@
 
 This repository is a set of little programs to play Geometry Dash just by moving parts of your face or making sounds!
 
-⚠ In all programs all faces in the camera area are detected, so you can even play with your friend!
+⚠️ In all programs all faces in the camera area are detected, so you can even play with your friend!
 
-⚠ There is a delay in all of the programs. Be careful!
+⚠️ There is a delay in all of the programs. Be careful!
 ### blink.py 👀
 
 "W" is pressed when you blink. Or you can close your right eye for holding "W". It's a really fun experience so try it out!
